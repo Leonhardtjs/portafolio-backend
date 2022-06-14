@@ -1,0 +1,25 @@
+{
+  "name": "portafolio-backend",
+  "version": "1.0.0",
+  "description": "Rest api portafolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsnd --respawn src/index.ts"
+  },
+  "author": "Leonhardtjs",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "typescript": "4.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.12",
+    "@types/express": "4.17.13",
+    "@types/node": "17.0.42",
+    "ts-node-dev": "2.0.0"
+  }
+}
